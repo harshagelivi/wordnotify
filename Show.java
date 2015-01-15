@@ -37,11 +37,11 @@ public class Show{
 				//cmdarray[2] = "15000";
 				cmdarray[1] = splits[0].trim();
 				cmdarray[2] = splits[1].trim();
-				cmdarray[3] = "--icon='/home/harsha/Dropbox/vocab/earth.png'";				
+				cmdarray[3] = "--icon=earth.png";				
 						
 				proc = runtime.exec(cmdarray);
 				try {
-				    TimeUnit.MINUTES.sleep(10);
+				    TimeUnit.MINUTES.sleep(5);
 				} catch (InterruptedException e) {
 				    e.printStackTrace();
 				}
